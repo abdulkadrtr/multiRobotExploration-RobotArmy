@@ -60,9 +60,7 @@ https://youtu.be/6FtEvvi4lk4
 
 ![Screenshot from 2023-04-14 15-09-45](https://user-images.githubusercontent.com/87595266/232044431-143e2592-d4f9-404b-89fd-243b9af53d68.png)
 
-
+## ROS2 communication network
 
 ![rosgraph](https://user-images.githubusercontent.com/87595266/232061251-64c3ed55-8297-4057-86f8-11599ae4cfa8.svg)
 
-
-![rosgraph](https://user-images.githubusercontent.com/87595266/232061592-6647db9b-791d-439f-be2a-52df373e54c1.png)
