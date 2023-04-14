@@ -9,7 +9,7 @@ Sistemin kalbi, tüm robotları merkezi olarak yöneten Otonom Keşif Kontrol Me
 
 Otonom Keşif Kontrol Merkezi, bu koordineli yaklaşımı kullanarak, hava aracına her iki kara aracını da net bir şekilde görebileceği stratejik bir konuma konumlandırması için komut verir. Bu, ekibin tüm alanı etkili bir şekilde keşfetmesini ve haritasını çıkarmasını sağlar. Kara araçlarından alınan haritalar ve hava aracından alınan görüntüler çevrenin birleştirilmiş bir haritasını sunarak daha fazla analiz ve karar vermeye olanak tanır.
 
-Bu projede ROS 2 ve Gazebo simülasyon ortamının kullanılması, otonom keşif ordusunun test edilmesi ve geliştirilmesi için gerçekçi simülasyonları kolaylaştırmıştır. Bu son teknoloji proje, arama ve kurtarma, çevresel izleme ve daha fazlası gibi alanlardaki potansiyel uygulamalarla, bilinmeyen arazileri keşfetme ve değerli bilgiler toplama konusunda otonom robotların gücünü sergiliyor.
+Bu projede ROS 2 ve Gazebo simülasyon ortamının kullanılması, otonom keşif ordusunun test edilmesi ve geliştirilmesi için gerçekçi simülasyonları sağlamıştır. Bu proje, arama ve kurtarma, çevresel izleme ve daha fazlası gibi alanlardaki potansiyel uygulamalarla, bilinmeyen arazileri keşfetme ve değerli bilgiler toplama konusunda otonom robotların gücünü sergiliyor.
 
 Sonuç olarak, Otonom Keşif Ordusu projesi, bilinmeyen bölgeleri keşfetmek ve haritasını çıkarmak için birlikte çalışan otonom robotik araçlardan oluşan bir ekibin yeteneklerini göstermektedir. Lidar sensörleri, havadan görüntüleme ve merkezi kontrol gibi teknolojilerin kullanımıyla bu proje, keşif alanında yeni yaklaşımlar  yaratma potansiyeline sahiptir.
 
