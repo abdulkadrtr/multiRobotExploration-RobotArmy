@@ -1,6 +1,8 @@
 # Multi Robot Exploration
 ![pic](https://user-images.githubusercontent.com/87595266/232087653-15e75801-908e-4017-930c-543008c47192.png)
 
+[tr-readme](https://github.com/abdulkadrtr/multiRobotExploration/blob/main/readme-tr.md)
+
 The Autonomous Exploration Army project is a cutting-edge initiative that aims to create a team of robotic vehicles for autonomous exploration. The team consists of 1 aerial vehicle, or drone, and 2 ground vehicles, which work collaboratively to map and explore unknown areas. Equipped with lidar sensors, the ground vehicles are responsible for mapping the terrain, while the aerial vehicle provides aerial imaging support to monitor the ground vehicles from above.
 
 The heart of the system is the Autonomous Exploration Control Center, which centrally manages all the robots. It sends messages to the ground vehicles, providing them with optimal routes for exploration based on the combined maps obtained from the ground vehicles. Additionally, it receives camera images from the aerial vehicle, allowing it to have a comprehensive view of the entire area.
