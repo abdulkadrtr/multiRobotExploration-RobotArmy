@@ -1,22 +1,22 @@
 # Çok Robotlu Keşif
 ![pic](https://user-images.githubusercontent.com/87595266/232087653-15e75801-908e-4017-930c-543008c47192.png)
 
-Otonom Keşif Ordusu projesi, otonom keşif için bir ekip robotik araç oluşturmayı hedefleyen bir keskin girişimdir. Ekip, 1 adet hava aracı veya drone ve 2 adet yer aracından oluşur ve bilinmeyen alanları haritalamak ve keşfetmek için işbirliği yapar. Lidar sensörlerle donatılan yer araçları, araziyi haritalamaktan sorumludur, hava aracı ise yer araçlarını yukarıdan izlemek için hava görüntüleme desteği sağlar.
+Otonom Keşif Ordusu projesi, otonom keşif için robotik araçlardan oluşan bir ekip oluşturmayı amaçlar. Ekip, bilinmeyen bölgeleri haritalamak ve keşfetmek için işbirliği içinde çalışan 1 hava aracı ve 2 kara aracından oluşur. Lidar sensörleri ile donatılan kara araçları, arazinin haritalanmasından, hava aracı ise kara araçlarının yukarıdan izlenmesi için havadan görüntüleme desteği sağlar.
 
-Sistemin kalbi, tüm robotları merkezi olarak yöneten Otonom Keşif Kontrol Merkezi'dir. Kontrol merkezi, yer araçlarına keşif için optimal rotalar sağlayan mesajlar gönderir, yer araçlarından elde edilen birleşik haritalara dayanarak. Ayrıca, hava aracından kamera görüntüleri alır ve böylece tüm alanın kapsamlı bir görünümüne sahip olur.
+Sistemin kalbi, tüm robotları merkezi olarak yöneten Otonom Keşif Kontrol Merkezi'dir. Kara araçlarına mesajlar göndererek, kara araçlarından elde edilen haritaları birleştirerek birleştirilmiş haritaya dayalı olarak keşif için en uygun rotaları sağlar. Ayrıca hava aracından kamera görüntüleri alarak tüm alanın kapsamlı bir şekilde havadan görüntülenmesini sağlar.
 
-Bu koordineli yaklaşımı kullanarak, Otonom Keşif Kontrol Merkezi, hava aracını stratejik bir konumda konumlandırmasını sağlar, böylece yer araçlarının her ikisini de açık bir görünüme sahip olabilir. Bu, ekip tarafından tüm alanın etkili bir şekilde keşfedilip haritalanmasını sağlar. Yer araçlarından ve hava aracının görüntülerinden birleştirilen haritalar, çevrenin konsolide bir haritasını sağlar, daha fazla analiz ve karar verme için.
+Otonom Keşif Kontrol Merkezi, bu koordineli yaklaşımı kullanarak, hava aracına her iki kara aracını da net bir şekilde görebileceği stratejik bir konuma konumlandırması için komut verir. Bu, ekibin tüm alanı etkili bir şekilde keşfetmesini ve haritasını çıkarmasını sağlar. Kara araçlarından alınan haritalar ve hava aracından alınan görüntüler çevrenin birleştirilmiş bir haritasını sunarak daha fazla analiz ve karar vermeye olanak tanır.
 
-Bu projede ROS 2 ve Gazebo simülasyon ortamının kullanımı, otonom keşif ordusunun gerçekçi simülasyonlarını sağlamıştır. Bu keskin proje, bilinmeyen alanları keşfetme ve değerli bilgileri toplama konusundaki otonom robot teknolojisinin gücünü sergilemektedir ve arama-kurtarma, çevre izleme gibi alanlarda potansiyel uygulamalara sahiptir.
+Bu projede ROS 2 ve Gazebo simülasyon ortamının kullanılması, otonom keşif ordusunun test edilmesi ve geliştirilmesi için gerçekçi simülasyonları kolaylaştırmıştır. Bu son teknoloji proje, arama ve kurtarma, çevresel izleme ve daha fazlası gibi alanlardaki potansiyel uygulamalarla, bilinmeyen arazileri keşfetme ve değerli bilgiler toplama konusunda otonom robotların gücünü sergiliyor.
 
-Sonuç olarak, Otonom Keşif Ordusu projesi, birlikte çalışan otonom robotik araçların bilinmeyen alanları keşfetme ve haritalama yeteneklerini sergilemektedir. Lidar sensörler, hava görüntüleme ve merkezi kontrol gibi gelişmiş teknolojilerin kullanımıyla, bu proje keşif alanında devrim yaratabilir ve otonom robotik için yeni fırsatlar yaratabilir.
+Sonuç olarak, Otonom Keşif Ordusu projesi, bilinmeyen bölgeleri keşfetmek ve haritasını çıkarmak için birlikte çalışan otonom robotik araçlardan oluşan bir ekibin yeteneklerini göstermektedir. Lidar sensörleri, havadan görüntüleme ve merkezi kontrol gibi teknolojilerin kullanımıyla bu proje, keşif alanında yeni yaklaşımlar  yaratma potansiyeline sahiptir.
 
 *Projede ROS2 Humble, Gazebo , TurtleBot3 modeli ve SJTU Drone modeli kullanılmıştır.
 
 # Nasıl Çalışır
 
 
-To run the project, you will need to have ROS2 and Gazebo simulation installed on your system. Follow the instructions below:
+Projeyi çalıştırmak için sisteminizde ROS2 ve Gazebo simülasyonunun kurulu olması gerekmektedir. Aşağıdaki talimatları izleyin:
 
 1 - ROS2 ve Gazebo simülasyonunu sisteminize kurun.
 
