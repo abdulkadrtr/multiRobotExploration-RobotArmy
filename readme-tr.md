@@ -1,6 +1,8 @@
 # Çok Robotlu Keşif
 ![pic](https://user-images.githubusercontent.com/87595266/232087653-15e75801-908e-4017-930c-543008c47192.png)
 
+[en-readme](https://github.com/abdulkadrtr/multiRobotExploration/blob/main/README.md)
+
 Otonom Keşif Ordusu projesi, otonom keşif için robotik araçlardan oluşan bir ekip oluşturmayı amaçlar. Ekip, bilinmeyen bölgeleri haritalamak ve keşfetmek için işbirliği içinde çalışan 1 hava aracı ve 2 kara aracından oluşur. Lidar sensörleri ile donatılan kara araçları, arazinin haritalanmasından, hava aracı ise kara araçlarının yukarıdan izlenmesi için havadan görüntüleme desteği sağlar.
 
 Sistemin kalbi, tüm robotları merkezi olarak yöneten Otonom Keşif Kontrol Merkezi'dir. Kara araçlarına mesajlar göndererek, kara araçlarından elde edilen haritaları birleştirerek birleştirilmiş haritaya dayalı olarak keşif için en uygun rotaları sağlar. Ayrıca hava aracından kamera görüntüleri alarak tüm alanın kapsamlı bir şekilde havadan görüntülenmesini sağlar.
