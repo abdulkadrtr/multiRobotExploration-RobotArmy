@@ -13,7 +13,7 @@ In conclusion, the Autonomous Exploration Army project demonstrates the capabili
 
 The project utilized the TurtleBot3 model and the SJTU Drone model for implementation.
 
-## How Does It Work
+# How Does It Work
 
 
 To run the project, you will need to have ROS2 and Gazebo simulation installed on your system. Follow the instructions below:
@@ -50,16 +50,16 @@ This will start the map merging process and display the merged map in an RViz2 w
 
 With these steps, your project is now up and running, and the robots will start autonomously exploring the environment and merging maps to create a single map for visualization.
 
-## Youtube Project Introduction & Demo
+# Youtube Project Introduction & Demo
 
 You can watch the video below for demo and detailed project presentation.
 
 https://youtu.be/6FtEvvi4lk4
 
-## A scene from the robots work
+# A scene from the robots work
 
 ![Screenshot from 2023-04-14 15-09-45](https://user-images.githubusercontent.com/87595266/232044431-143e2592-d4f9-404b-89fd-243b9af53d68.png)
 
-## ROS2 communication network
+# ROS 2 communication network
 
 ![rosgraph](https://user-images.githubusercontent.com/87595266/232061251-64c3ed55-8297-4057-86f8-11599ae4cfa8.svg)
